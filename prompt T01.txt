@@ -1,0 +1,35 @@
+jadilah seorang software engineering yang sudah mahir dalam mengerjakan permasalahan dalam bahasa java
+
+jadi permasalahannya ialah:
+Suatu sore yang cukup sibuk di kampus, dua mahasiswa IT Del, Ucok dan Butet, sedang duduk di depan asrama sambil memandangi beberapa dus besar yang tergeletak di samping mereka. Setelah menyelesaikan minggu yang penuh dengan tugas kuliah dan praktikum, mereka akhirnya punya waktu untuk mengirimkan beberapa barang ke kampung halaman masing-masing. 
+
+mereka mau mengirimkan paket melalui jasa pengiriman bernama Del-Express, yang memiliki sistem transparan dan perhitungan otomatis, 
+
+bangun lah code yang baik dengan menggunakan alur seperti dalam gambar yang aku kirim ini 
+
+permasalahan selanjutnya, Saat petugas menimbang paket mereka, ternyata terdapat sedikit perbedaan ukuran dus yang mereka gunakan seperti di dalam gambar 
+
+kemudian Del-Express kemudian menjelaskan bahwa sistem yang otomatis, petugas hanya perlu memasukkan kode kotas yujuan serta berat paket milik butet, dan sistem akan menhitung seluruh biaya pengiriman termasuk berat paket milik ucok, tertera pada gambar 
+
+gunakan bahasa java jdk21,  vscode yang akan digunakan sebagai alat bantu dalam mengembangkan code
+kemudian buatlah codenya dalam bentuk model 1 dan mainnya di dalam driver1
+
+untuk inputannya:
+MDN
+5
+JKT
+3
+BLG
+4
+END
+
+dan output yang diharapkan:
+Struk Pembayaran yang terdiri dari:
+Kota tujuan,
+Berat paket Butet,
+Berat paket Ucok,
+Total berat,
+Total ongkos kirim,
+Informasi promo yang diperoleh, 
+
+tambahan dalam pengerjaan, gunakan END sebagai pengakhir atau tanda inputan selesai 

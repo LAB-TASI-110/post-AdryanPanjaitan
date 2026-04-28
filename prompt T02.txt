@@ -1,0 +1,73 @@
+Jadilah sebagai programmer yang handal dalam mebuat code oop java, tugas kali ini iyalah code dapat menyimpan data stok barang yang disimpan dalam sebuah rak gudang tersusun dengan rapi, pada gambar terdapat pola penyimpanan untuk memahami bagaimana kelompok barang dipisahkan, tugasnya program mampu menentukan total stok hanya untuk kategori barang yang diminta
+
+contoh inputannya:
+1.  Jumlah total data (N).
+2.  Deret stok (s1, s2, ..., sN).
+3.  Kode kategori barang
+
+pada saat pengerjaan akan digunakan file model2 dan driver2(sebagai main untuk manjalankan java)
+
+public class model2 {
+    private String namaBarang;
+    private int stok;
+    private String kategori;
+
+    public model2(String namaBarang, int stok, String kategori) {
+        this.namaBarang = namaBarang;
+        this.stok = stok;
+        this.kategori = kategori;
+    }
+
+    public int getStok() {
+        return stok;
+    }
+
+    public String getKategori() {
+        return kategori;
+    }
+}
+
+public class driver2 {
+    public static void main(String[] args) {
+        // 1. Menentukan Jumlah total data (N)
+        int N = 4;
+
+        // 2. Membuat Array Objek secara manual tanpa ArrayList
+        model2[] daftarGudang = new model2[N];
+
+        // Mengisi data berdasarkan gambar
+        // Format: Nama Barang, Stok, Kategori
+        daftarGudang[0] = new model2("Dasi SD", 22, "Sekolah");
+        daftarGudang[1] = new model2("Gula", 85, "Sembako");
+        daftarGudang[2] = new model2("Rok Pramuka", 5, "Sekolah");
+        daftarGudang[3] = new model2("Minyak", 120, "Sembako");
+
+        // 3. Kode kategori barang yang ingin dicari
+        // Kamu bisa mengganti string ini untuk mencoba kategori lain
+        String kategoriDicari = "Sekolah";
+
+        // Proses perhitungan total stok kategori tertentu
+        int totalStok = 0;
+        
+        for (int i = 0; i < daftarGudang.length; i++) {
+            // Menggunakan .equals() untuk membandingkan String tanpa library util
+            if (daftarGudang[i].getKategori().equals(kategoriDicari)) {
+                totalStok += daftarGudang[i].getStok();
+            }
+        }
+
+        // Output Hasil
+        System.out.println("Kategori: " + kategoriDicari);
+        System.out.println("Total Stok: " + totalStok + " pcs");
+    }
+} 
+
+tolong perbaiki code di atas
+Jadilah sebagai programmer yang handal dalam mebuat code oop java, tugas kali ini iyalah code dapat menyimpan data stok barang yang disimpan dalam sebuah rak gudang tersusun dengan rapi, pada gambar terdapat pola penyimpanan untuk memahami bagaimana kelompok barang dipisahkan, tugasnya program mampu menentukan total stok hanya untuk kategori barang yang diminta
+
+contoh inputannya:
+1.  Jumlah total data (N).
+2.  Deret stok (s1, s2, ..., sN).
+3.  Kode kategori barang
+
+pada saat pengerjaan akan digunakan file model2 dan driver2(sebagai main untuk manjalankan java)

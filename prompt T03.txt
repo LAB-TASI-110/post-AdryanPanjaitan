@@ -1,0 +1,8 @@
+jadilah seorang ahli software enginerring yang sudah handal dalam mengerjakan sistem oop bahasa java
+
+buatlah sebuah sistem yang mendukung operasional kafetaria IT Del
+alurnya, mahasiswa dapat melihat menu yang tersedia di kafetaria tersebut, ada kategori makanan : bakwan goreng, tempe krispi, sosis, nugget, kentang goreng, piscok; untuk minuman ada teh manis dingin, matcha dingin, chocolatos dingin, cappucino dingin
+mahasiswa dapat melakukan pemesanan dengan harga setiap makanan dan minuman pukul rata di harga rp. 10,000.00, kemudian mahasiswa dapat melihat stok makanan dan minuman yang di mana setiap harinya kafetaria IT Del hanya menyediakan 50 pemesanan untuk setiap jenis makanan dan minumannya
+dalam alur pemesanan mahasiswa terlebih dahulu melihat menu, kemudian lanjut untuk membeli makanan dan hanya dapat memilih 1 jenis makanan dan 1 jenis minuman setelah itu ouput yang diharapkan berupa kalimat "pesanan anda akan kami proses"
+
+kerjakan dalam file Model3 dan Driver3
